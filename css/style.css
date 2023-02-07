@@ -588,7 +588,7 @@ footer {
     color: white;
     font-style: normal;
 }
-@media (max-width: 767px){
+@media (max-width: 821px){
     .container-second {
         flex-direction: column;
         align-content: center;
@@ -642,11 +642,14 @@ footer {
     .button {
         margin-top: 10px;
     }
-}
-@media (max-width: 480px) {
     .nav {
         display: none;
     }
+    .lang {
+        display: none;
+    }
+}
+@media (max-width: 480px) {
     .content {
         display: none;
     }
@@ -667,12 +670,6 @@ footer {
         max-width: 300px;
         top: 30px;
         height: 40px;
-    }
-    .nav {
-        display: none;
-    }
-    .lang {
-        display: none;
     }
     .logo img {
         width: 28px;
